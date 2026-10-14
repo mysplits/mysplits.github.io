@@ -325,7 +325,7 @@
       </div>
       <div class="notice">
         <b>Not a doctor</b>
-        <p>SPLITS is a training tool, not a doctor. If something hurts, if you feel dizzy or faint, or if you have a health condition, talk to a medical professional before following any plan. It connects through the open-source <a href="https://github.com/JamsusMaximus/trainingpeaks-mcp" target="_blank" rel="noopener">TrainingPeaks MCP server</a> by James McAulay and is not affiliated with TrainingPeaks.</p>
+        <p>SPLITS is a training tool, not a doctor. If something hurts, if you feel dizzy or faint, or if you have a health condition, talk to a medical professional before following any plan. It connects through the open-source <a href="https://github.com/JamsusMaximus/trainingpeaks-mcp" target="_blank" rel="noopener">TrainingPeaks MCP server</a> by James McAulay and is not affiliated with TrainingPeaks. That connection is unofficial: it uses your own browser session, may not be allowed by TrainingPeaks' terms, and TrainingPeaks could block it at any time.</p>
       </div>
     </div>
   </section>
@@ -350,8 +350,8 @@
   var STEPS = [
     { t: "Connect TrainingPeaks", m: [
       ["you", "Set up SPLITS"],
-      ["claude", "Let's go. First I need to reach your TrainingPeaks. I'll install the connector on your computer. Are you logged into TrainingPeaks in your browser?"],
-      ["you", "Yes, in Chrome."],
+      ["claude", "Let's go. One thing first: I reach TrainingPeaks through an unofficial connection that uses your own browser session. TrainingPeaks could block it at any time. OK to go ahead?"],
+      ["you", "OK. I'm logged in on Chrome."],
       ["claude", "Connected. I can see your profile, so we're in. Your session stays encrypted on your machine; I never see it."] ] },
     { t: "Choose a folder", m: [
       ["claude", "Where should I keep your training notes? Your plan, your profile and one note per session I review. I'd suggest a SPLITS folder in your home."],
